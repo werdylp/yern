@@ -1,0 +1,42 @@
+* {
+    font-family: 'Noto Sans', sans-serif;
+    color:rgb(115, 255, 0);
+    background-image: url('john-lenon.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    overflow: hidden;
+    background-position: bottom;
+}
+
+.o-yernovi {
+    margin-right: 50px;
+    margin-left: 50px;
+    font-size: 20px;
+}
+
+.odpovez {
+    width: 250px;
+}
+
+
+.yern {
+    text-align: center;
+}
+
+.jak-vyrustal {
+    text-decoration: none;
+    box-sizing: border-box;
+    width: 500px;
+    background-color:rgb(255, 0, 255);
+    margin-left: 150px;
+}
+
+.top {
+    background-image: url('john-lenon.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    overflow: hidden;
+    padding-top: 0px;
+}

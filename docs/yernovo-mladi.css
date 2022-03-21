@@ -1,0 +1,21 @@
+* {
+    font-family: 'Noto Sans', sans-serif;
+    color: white;
+    text-shadow: -1px 2px 0 #000;
+    background-image: url('pink guy.gif');
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    overflow: hidden;
+    background-position: bottom;
+}
+
+.o-jeho-mladi {
+    margin-right: 200px;
+    margin-left: 300px;
+    margin-top: 150px;
+}
+
+.odpovez {
+    margin-left: 300px;
+}
