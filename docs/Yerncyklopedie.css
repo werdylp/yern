@@ -1,18 +1,25 @@
 * {
     font-family: 'Noto Sans', sans-serif;
-    color:rgb(115, 255, 0);
-    background-image: url('john-lenon.jpg');
+    color: rgb(149, 255, 0);
+    background-image: url('background.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
     overflow: hidden;
     background-position: bottom;
+    text-shadow: -1px -1px 0 rgb(115, 0, 255), 1px -1px 0 rgb(115, 0, 255), -1px 1px 0 rgb(115, 0, 255), 1px 1px 0 rgb(115, 0, 255);
+}
+
+html,
+body {
+    width: 100%;
 }
 
 .o-yernovi {
-    margin-right: 50px;
-    margin-left: 50px;
-    font-size: 20px;
+    margin-right: 15%;
+    margin-left: 15%;
+    font-size: 25px;
+    text-align: justify;
 }
 
 .odpovez {
@@ -28,15 +35,62 @@
     text-decoration: none;
     box-sizing: border-box;
     width: 500px;
-    background-color:rgb(255, 0, 255);
+    background-color: rgb(255, 0, 255);
     margin-left: 150px;
 }
 
-.top {
+
+--- GALERIE --- .top {
     background-image: url('john-lenon.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
     overflow: hidden;
     padding-top: 0px;
+}
+
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+--- GALERIE --- body {
+    scrollbar-3dlight-color: #2a2680;
+    scrollbar-arrow-color: #ffff00;
+    scrollbar-base-color: #7F7F7F;
+    scrollbar-track-color: 7e00ff;
+    scrollbar-darkshadow-color: #2a2680;
+    scrollbar-face-color: #7e73ff;
+    scrollbar-highlight-color: 2a2680;
+    scrollbar-shadow-color: #000000;
+}
+
+.link {
+    size: 30;
+}
+
+.retrobutton {
+    background: silver;
+    box-shadow: inset -1px -1px #0a0a0a, inset 1px 1px #fff, inset -2px -2px grey, inset 2px 2px #dfdfdf;
+    width: 25%;
+}
+
+.tesla{
+    margin-left: 50%;
 }
